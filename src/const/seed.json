@@ -1,0 +1,1382 @@
+[
+  {
+    "car": [
+      {
+        "id": "da006137-fb1c-4436-885d-7d57a45d400a",
+        "model": "Sedan",
+        "availability_status": false,
+        "created_at": "2023-08-11T06:51:02.690Z",
+        "updated_at": "2023-08-11T02:09:18.826Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "662943bf-7782-4747-aae0-a61705a757ef",
+        "model": "SUV",
+        "availability_status": false,
+        "created_at": "2023-08-10T17:38:01.707Z",
+        "updated_at": "2023-08-11T00:13:19.470Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "495c7d3a-4db1-4a63-9b09-66430e891846",
+        "model": "Sports Car",
+        "availability_status": true,
+        "created_at": "2023-08-11T00:02:02.812Z",
+        "updated_at": "2023-08-11T02:22:37.353Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a46a2917-a1b7-4d29-9d2e-599e4da6ec96",
+        "model": "Hatchback",
+        "availability_status": true,
+        "created_at": "2023-08-10T17:43:44.007Z",
+        "updated_at": "2023-08-11T02:08:21.425Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2eacab18-d3c7-47c4-9cb2-be93178f9386",
+        "model": "Electric Vehicle",
+        "availability_status": false,
+        "created_at": "2023-08-10T21:36:17.174Z",
+        "updated_at": "2023-08-10T20:48:03.246Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5291d7b4-40ce-4358-a440-59d723d9bce7",
+        "start_time": "2023-08-11T04:12:14.265Z",
+        "end_time": "2023-08-10T09:50:42.354Z",
+        "created_at": "2023-08-10T19:27:55.307Z",
+        "updated_at": "2023-08-11T06:26:37.829Z",
+        "car_id": "da006137-fb1c-4436-885d-7d57a45d400a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c36d55ae-3d6c-4102-8094-76dbbec3f7cf",
+        "start_time": "2023-08-10T20:45:34.405Z",
+        "end_time": "2023-08-10T11:54:46.506Z",
+        "created_at": "2023-08-11T02:48:00.185Z",
+        "updated_at": "2023-08-10T07:01:42.602Z",
+        "car_id": "662943bf-7782-4747-aae0-a61705a757ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f1894e2-a108-4e73-b42e-69e3a2241dd0",
+        "start_time": "2023-08-10T08:51:53.680Z",
+        "end_time": "2023-08-11T06:09:33.663Z",
+        "created_at": "2023-08-10T07:16:04.272Z",
+        "updated_at": "2023-08-10T15:10:01.642Z",
+        "car_id": "662943bf-7782-4747-aae0-a61705a757ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5eed6c81-2046-4bbc-9162-b95182394ca5",
+        "start_time": "2023-08-10T12:34:19.834Z",
+        "end_time": "2023-08-10T17:54:59.215Z",
+        "created_at": "2023-08-10T21:49:56.682Z",
+        "updated_at": "2023-08-10T15:54:26.915Z",
+        "car_id": "2eacab18-d3c7-47c4-9cb2-be93178f9386",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c01e4d1-9601-4f66-9069-6c69cafb92c2",
+        "start_time": "2023-08-10T21:39:14.398Z",
+        "end_time": "2023-08-10T19:30:36.248Z",
+        "created_at": "2023-08-10T08:55:58.057Z",
+        "updated_at": "2023-08-11T05:56:26.256Z",
+        "car_id": "495c7d3a-4db1-4a63-9b09-66430e891846",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "326d139b-77fc-47c3-9d38-d990c5716832",
+        "email": "Alysson_DuBuque68@yahoo.com",
+        "firstName": "Deion",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26202582",
+        "tenantId": null
+      },
+      {
+        "reference": "35e52510-9efd-41a6-854c-caab70283c0f",
+        "email": "Perry.Goyette@yahoo.com",
+        "firstName": "Elenora",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2139643",
+        "tenantId": null
+      },
+      {
+        "reference": "c78a8700-60b7-49ae-853c-834a416c3441",
+        "email": "Trisha_Conn33@gmail.com",
+        "firstName": "Ara",
+        "lastName": "Schuppe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1031.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1574fb77-0291-49ba-85bb-919cf0f6598c",
+        "email": "Giovani_Bogisich@yahoo.com",
+        "firstName": "Kendra",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1159.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7bb605a0-f42b-4179-bc07-d6678a7949c7",
+        "email": "Jerrell95@gmail.com",
+        "firstName": "Brennan",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18274782",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "641a9334-df41-47c8-bccc-d60b1009d00c",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-10T08:59:54.579Z",
+        "updated_at": "2023-08-11T05:10:03.191Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d8cd0097-79b1-479f-b7db-985f88dab173",
+        "model": "SUV",
+        "availability_status": false,
+        "created_at": "2023-08-10T18:43:20.396Z",
+        "updated_at": "2023-08-11T05:10:38.831Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "80f1a19a-3862-4595-aeee-529ff7aa2b36",
+        "model": "Sports Car",
+        "availability_status": true,
+        "created_at": "2023-08-10T09:04:41.236Z",
+        "updated_at": "2023-08-10T08:32:28.369Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a1c39938-3f21-4ef8-9ce7-54daa3b9b5e2",
+        "model": "Hatchback",
+        "availability_status": false,
+        "created_at": "2023-08-10T19:18:46.600Z",
+        "updated_at": "2023-08-11T03:26:41.627Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5c20500e-c20d-439d-a8b7-6a76aa6be516",
+        "model": "Electric Vehicle",
+        "availability_status": false,
+        "created_at": "2023-08-10T10:53:05.550Z",
+        "updated_at": "2023-08-10T09:14:38.558Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b9a4a416-a553-467f-b7e3-869a9fa7c6da",
+        "start_time": "2023-08-11T03:00:24.995Z",
+        "end_time": "2023-08-10T08:24:14.092Z",
+        "created_at": "2023-08-10T22:00:17.848Z",
+        "updated_at": "2023-08-10T22:01:09.938Z",
+        "car_id": "80f1a19a-3862-4595-aeee-529ff7aa2b36",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2de86ca6-8a18-4133-b8f3-4af02e31c728",
+        "start_time": "2023-08-10T16:47:08.628Z",
+        "end_time": "2023-08-10T09:49:28.600Z",
+        "created_at": "2023-08-10T21:12:15.853Z",
+        "updated_at": "2023-08-10T15:46:26.698Z",
+        "car_id": "5c20500e-c20d-439d-a8b7-6a76aa6be516",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01720d05-afa9-4d7b-9589-ab56a5237b94",
+        "start_time": "2023-08-11T00:52:01.799Z",
+        "end_time": "2023-08-10T09:24:31.535Z",
+        "created_at": "2023-08-11T02:06:05.554Z",
+        "updated_at": "2023-08-11T01:39:22.719Z",
+        "car_id": "641a9334-df41-47c8-bccc-d60b1009d00c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "464039af-93ca-4725-a239-e16699a5dae9",
+        "start_time": "2023-08-10T14:58:48.967Z",
+        "end_time": "2023-08-11T05:12:08.070Z",
+        "created_at": "2023-08-10T08:17:32.568Z",
+        "updated_at": "2023-08-10T22:01:38.407Z",
+        "car_id": "d8cd0097-79b1-479f-b7db-985f88dab173",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5210a86-d534-4398-860a-0ecfea20943a",
+        "start_time": "2023-08-10T21:29:40.195Z",
+        "end_time": "2023-08-11T02:29:20.818Z",
+        "created_at": "2023-08-11T01:44:12.838Z",
+        "updated_at": "2023-08-10T20:47:18.489Z",
+        "car_id": "a1c39938-3f21-4ef8-9ce7-54daa3b9b5e2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "abadba9f-0ee6-4c84-a860-d1b7811794b2",
+        "email": "Leopoldo_Shields52@hotmail.com",
+        "firstName": "Layla",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85970853",
+        "tenantId": null
+      },
+      {
+        "reference": "af18c44f-acff-4064-a9a3-56ec238e2084",
+        "email": "Vladimir_Grant59@gmail.com",
+        "firstName": "Jarrod",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38268261",
+        "tenantId": null
+      },
+      {
+        "reference": "af6fdf6d-4aea-48c0-b5ed-c15ace5762d0",
+        "email": "Georgette.Hettinger3@gmail.com",
+        "firstName": "Keira",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82672215",
+        "tenantId": null
+      },
+      {
+        "reference": "6d531f54-cd4e-4fab-9f83-4365861b10c0",
+        "email": "Reanna.Flatley@yahoo.com",
+        "firstName": "Shyanne",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30989004",
+        "tenantId": null
+      },
+      {
+        "reference": "7c7e8664-f00b-4374-8be1-45d4c43c1c0b",
+        "email": "Leonie.Rath18@yahoo.com",
+        "firstName": "Lenore",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1094.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "3be3f1c5-b40a-4e48-a86c-765735cfcefd",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-10T10:09:31.424Z",
+        "updated_at": "2023-08-10T09:07:53.573Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "53e1a209-64ec-4990-bd0c-8c7eede18eb2",
+        "model": "SUV",
+        "availability_status": false,
+        "created_at": "2023-08-10T21:29:12.016Z",
+        "updated_at": "2023-08-10T17:16:05.769Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9de7098a-544f-40f9-91e0-2070bd6dce19",
+        "model": "Hatchback",
+        "availability_status": false,
+        "created_at": "2023-08-10T11:37:03.127Z",
+        "updated_at": "2023-08-11T04:01:45.942Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "86cf908e-9335-486c-b88e-d886fa4f8233",
+        "model": "Sports Car",
+        "availability_status": true,
+        "created_at": "2023-08-10T11:36:55.890Z",
+        "updated_at": "2023-08-10T17:22:10.896Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4cc542f0-8294-480a-aa80-70f414ae9b9a",
+        "model": "Electric Vehicle",
+        "availability_status": true,
+        "created_at": "2023-08-10T16:49:12.888Z",
+        "updated_at": "2023-08-10T16:40:50.100Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "bd79aaf7-964f-4b65-84ab-60c0fde42b96",
+        "start_time": "2023-08-11T05:26:53.882Z",
+        "end_time": "2023-08-10T19:44:23.733Z",
+        "created_at": "2023-08-11T01:40:48.143Z",
+        "updated_at": "2023-08-10T13:47:10.166Z",
+        "car_id": "53e1a209-64ec-4990-bd0c-8c7eede18eb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b619793-01f6-472d-9f6e-c068b55b73b2",
+        "start_time": "2023-08-10T22:30:33.773Z",
+        "end_time": "2023-08-10T14:06:46.050Z",
+        "created_at": "2023-08-10T23:04:33.606Z",
+        "updated_at": "2023-08-10T18:44:29.166Z",
+        "car_id": "9de7098a-544f-40f9-91e0-2070bd6dce19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d20d0ca2-a43f-4356-bc32-fba3010f2bb1",
+        "start_time": "2023-08-11T03:22:39.128Z",
+        "end_time": "2023-08-11T03:18:52.658Z",
+        "created_at": "2023-08-10T08:03:25.634Z",
+        "updated_at": "2023-08-10T21:22:10.544Z",
+        "car_id": "86cf908e-9335-486c-b88e-d886fa4f8233",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f3756e7-7fdc-40cf-9f8f-b5cd27639ff2",
+        "start_time": "2023-08-10T20:54:28.625Z",
+        "end_time": "2023-08-10T13:48:47.862Z",
+        "created_at": "2023-08-10T20:13:39.319Z",
+        "updated_at": "2023-08-10T22:05:23.192Z",
+        "car_id": "53e1a209-64ec-4990-bd0c-8c7eede18eb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92deee06-7a3f-46fb-affc-c4f45abbf5b3",
+        "start_time": "2023-08-10T09:56:27.429Z",
+        "end_time": "2023-08-11T06:53:49.874Z",
+        "created_at": "2023-08-10T12:06:53.429Z",
+        "updated_at": "2023-08-10T14:21:08.072Z",
+        "car_id": "86cf908e-9335-486c-b88e-d886fa4f8233",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "872685b3-bd9d-4fdb-8b87-64dac7a26bff",
+        "email": "Josue_Marquardt10@yahoo.com",
+        "firstName": "Ray",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8839616",
+        "tenantId": null
+      },
+      {
+        "reference": "351e87ed-3f5f-4b89-9316-17f3f3b26ef7",
+        "email": "Alysa_Erdman11@hotmail.com",
+        "firstName": "Lexi",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1084.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a35d2527-ded3-4374-9264-b9dc87c9d00b",
+        "email": "Chanelle.Bartell-Bosco@hotmail.com",
+        "firstName": "Dejon",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67578138",
+        "tenantId": null
+      },
+      {
+        "reference": "11c698cb-043e-4c90-beba-52b5b4d4c775",
+        "email": "Alexandrine69@gmail.com",
+        "firstName": "Constantin",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/675.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37766c93-af48-4f9e-93ca-ecf46c4e5c97",
+        "email": "Loraine0@gmail.com",
+        "firstName": "Suzanne",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11791893",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "c393683a-5c6c-464b-9d88-f795bea18957",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-11T01:20:12.570Z",
+        "updated_at": "2023-08-10T18:57:17.161Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "576b9f56-9f59-428e-8ab0-a9fb7390951e",
+        "model": "SUV",
+        "availability_status": false,
+        "created_at": "2023-08-10T10:03:33.391Z",
+        "updated_at": "2023-08-10T10:39:46.056Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "44ee8849-2165-4822-b270-772002efc7e8",
+        "model": "Hatchback",
+        "availability_status": true,
+        "created_at": "2023-08-11T06:46:54.759Z",
+        "updated_at": "2023-08-10T09:22:22.724Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a4106a9e-ad9e-447c-9a7c-9ef75530c8a5",
+        "model": "Sports Car",
+        "availability_status": false,
+        "created_at": "2023-08-11T04:22:14.971Z",
+        "updated_at": "2023-08-10T23:46:24.679Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0cdcefef-a6a3-471c-98b5-bd12978bf235",
+        "model": "Electric Vehicle",
+        "availability_status": false,
+        "created_at": "2023-08-11T00:10:50.258Z",
+        "updated_at": "2023-08-10T14:40:01.662Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0606e2e5-6300-4b5b-acd9-2c9317869aac",
+        "start_time": "2023-08-11T06:05:43.749Z",
+        "end_time": "2023-08-11T00:08:24.417Z",
+        "created_at": "2023-08-10T18:35:23.439Z",
+        "updated_at": "2023-08-11T03:07:18.572Z",
+        "car_id": "a4106a9e-ad9e-447c-9a7c-9ef75530c8a5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2036b84-4e05-44ab-8ccd-a469aafcf8b5",
+        "start_time": "2023-08-10T19:14:56.011Z",
+        "end_time": "2023-08-11T06:37:00.426Z",
+        "created_at": "2023-08-10T21:09:47.865Z",
+        "updated_at": "2023-08-10T15:07:14.187Z",
+        "car_id": "44ee8849-2165-4822-b270-772002efc7e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46430dec-0c21-4a81-aaae-f982c663572b",
+        "start_time": "2023-08-10T15:07:31.099Z",
+        "end_time": "2023-08-10T21:32:47.870Z",
+        "created_at": "2023-08-11T00:27:24.179Z",
+        "updated_at": "2023-08-10T11:07:25.170Z",
+        "car_id": "c393683a-5c6c-464b-9d88-f795bea18957",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a952cbe-e01f-4978-9137-99a6540fcc71",
+        "start_time": "2023-08-10T22:09:47.996Z",
+        "end_time": "2023-08-11T06:00:45.876Z",
+        "created_at": "2023-08-10T19:15:01.479Z",
+        "updated_at": "2023-08-10T23:30:42.777Z",
+        "car_id": "0cdcefef-a6a3-471c-98b5-bd12978bf235",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89755a20-6693-468d-9ecf-b2fa6d671138",
+        "start_time": "2023-08-11T06:47:35.642Z",
+        "end_time": "2023-08-10T22:30:21.619Z",
+        "created_at": "2023-08-11T03:47:20.079Z",
+        "updated_at": "2023-08-11T04:22:09.103Z",
+        "car_id": "c393683a-5c6c-464b-9d88-f795bea18957",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2b57a020-6c08-4527-b3be-b3586c75b79a",
+        "email": "Serenity54@gmail.com",
+        "firstName": "Donald",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83641783",
+        "tenantId": null
+      },
+      {
+        "reference": "a55f7433-e0e0-42e8-9463-b6373fe9a3c3",
+        "email": "Edd_Lehner@hotmail.com",
+        "firstName": "Milton",
+        "lastName": "Rogahn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74390857",
+        "tenantId": null
+      },
+      {
+        "reference": "4226da00-94bf-4d87-a110-c5c1c1af9a11",
+        "email": "Harry.Hauck94@hotmail.com",
+        "firstName": "Mckenna",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/866.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "28f2fa7a-05c4-42d5-9e34-08620c9e6c59",
+        "email": "Jacinthe.Murazik@yahoo.com",
+        "firstName": "Matt",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48062705",
+        "tenantId": null
+      },
+      {
+        "reference": "0b03fe10-550a-4a69-bc46-75947082b6c4",
+        "email": "Harley_Gutmann@gmail.com",
+        "firstName": "Millie",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38938610",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "34f9471d-94a2-41d6-912c-8f5e2e712396",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-10T21:02:45.195Z",
+        "updated_at": "2023-08-10T10:49:07.300Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4b3ed75c-971b-4957-b052-88c7ce5a9d4c",
+        "model": "SUV",
+        "availability_status": true,
+        "created_at": "2023-08-11T05:40:15.849Z",
+        "updated_at": "2023-08-10T11:07:59.709Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "55a4a953-8795-45f3-9c92-a9868230127c",
+        "model": "Sports Car",
+        "availability_status": false,
+        "created_at": "2023-08-10T09:12:01.394Z",
+        "updated_at": "2023-08-11T03:19:17.474Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fb568db5-7a4d-4e17-9d1f-e6c512a4c78f",
+        "model": "Hatchback",
+        "availability_status": false,
+        "created_at": "2023-08-11T06:03:05.927Z",
+        "updated_at": "2023-08-11T01:17:48.538Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "835ccff3-9191-4516-bca3-4e7e31b66b18",
+        "model": "Electric Vehicle",
+        "availability_status": true,
+        "created_at": "2023-08-11T00:52:01.182Z",
+        "updated_at": "2023-08-10T22:23:01.381Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "fbe05d1b-fbf5-42b7-bfd1-32488899bfdc",
+        "start_time": "2023-08-10T08:06:54.591Z",
+        "end_time": "2023-08-11T02:04:55.937Z",
+        "created_at": "2023-08-10T07:44:07.833Z",
+        "updated_at": "2023-08-10T21:37:54.713Z",
+        "car_id": "835ccff3-9191-4516-bca3-4e7e31b66b18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e982a62e-d2c2-4d79-8b39-eb94dfcd4f18",
+        "start_time": "2023-08-10T09:20:11.033Z",
+        "end_time": "2023-08-11T02:40:19.641Z",
+        "created_at": "2023-08-10T21:00:41.931Z",
+        "updated_at": "2023-08-11T01:38:56.798Z",
+        "car_id": "835ccff3-9191-4516-bca3-4e7e31b66b18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5a3b71b-9be2-476c-b75a-fb8382c0783b",
+        "start_time": "2023-08-10T14:45:08.115Z",
+        "end_time": "2023-08-10T12:46:47.146Z",
+        "created_at": "2023-08-11T00:36:01.662Z",
+        "updated_at": "2023-08-10T08:07:26.253Z",
+        "car_id": "34f9471d-94a2-41d6-912c-8f5e2e712396",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f596b88-ee55-4455-b0e9-4c9dc0e89dcd",
+        "start_time": "2023-08-10T13:36:51.947Z",
+        "end_time": "2023-08-10T16:35:26.563Z",
+        "created_at": "2023-08-11T02:36:19.105Z",
+        "updated_at": "2023-08-10T16:16:21.284Z",
+        "car_id": "fb568db5-7a4d-4e17-9d1f-e6c512a4c78f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14b073a5-d606-41eb-ad73-73d998cbdcc2",
+        "start_time": "2023-08-10T10:13:21.672Z",
+        "end_time": "2023-08-10T08:23:32.283Z",
+        "created_at": "2023-08-10T14:52:16.868Z",
+        "updated_at": "2023-08-11T01:00:09.820Z",
+        "car_id": "835ccff3-9191-4516-bca3-4e7e31b66b18",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "dc6a61d6-6d51-45ba-b48c-1e79a057bfc3",
+        "email": "Gage75@hotmail.com",
+        "firstName": "Dayton",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86900573",
+        "tenantId": null
+      },
+      {
+        "reference": "8c32cbbb-ed90-4e72-803c-d7d0a9fec567",
+        "email": "Samara50@hotmail.com",
+        "firstName": "Nat",
+        "lastName": "Boehm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22440009",
+        "tenantId": null
+      },
+      {
+        "reference": "40d3490f-9d42-4cc7-a799-a25d1ef8a4ce",
+        "email": "Werner_Beier85@yahoo.com",
+        "firstName": "Gerhard",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/109.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25561857-5d46-4307-9cf4-b03928ed9f4c",
+        "email": "Eddie.Gusikowski77@gmail.com",
+        "firstName": "Breana",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69231458",
+        "tenantId": null
+      },
+      {
+        "reference": "c1263cfb-c87d-46b1-bfbd-c55d9653e7b5",
+        "email": "Ahmad27@hotmail.com",
+        "firstName": "Hellen",
+        "lastName": "Fahey-Botsford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1034.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "6f9e6442-be78-4b8c-80c6-89695d6e3cf1",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-11T02:42:07.060Z",
+        "updated_at": "2023-08-10T20:02:23.804Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "36fb38c4-4b26-48f5-82e2-b5c0f672f87a",
+        "model": "SUV",
+        "availability_status": false,
+        "created_at": "2023-08-11T05:05:20.831Z",
+        "updated_at": "2023-08-11T06:15:40.719Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "edd5bd26-32f7-4838-91ee-5c0b829fb465",
+        "model": "Sports Car",
+        "availability_status": false,
+        "created_at": "2023-08-11T04:09:31.306Z",
+        "updated_at": "2023-08-10T18:21:24.922Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7fec914d-941d-4f1a-a55e-f49254ae57d4",
+        "model": "Hatchback",
+        "availability_status": true,
+        "created_at": "2023-08-10T13:30:36.492Z",
+        "updated_at": "2023-08-10T16:25:32.110Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23301423-e1e8-4946-8cb4-2dbf7e46cc4f",
+        "model": "Electric Vehicle",
+        "availability_status": true,
+        "created_at": "2023-08-11T06:11:20.561Z",
+        "updated_at": "2023-08-10T13:04:05.252Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "fcc69e05-64b9-42eb-8762-aef67fe51143",
+        "start_time": "2023-08-11T06:50:41.027Z",
+        "end_time": "2023-08-11T06:49:47.289Z",
+        "created_at": "2023-08-10T08:15:47.031Z",
+        "updated_at": "2023-08-10T20:21:08.299Z",
+        "car_id": "23301423-e1e8-4946-8cb4-2dbf7e46cc4f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cdce7cd-cc44-4bf0-a324-842aa587489a",
+        "start_time": "2023-08-11T05:43:27.651Z",
+        "end_time": "2023-08-10T18:07:36.247Z",
+        "created_at": "2023-08-10T15:22:33.265Z",
+        "updated_at": "2023-08-11T04:31:51.768Z",
+        "car_id": "edd5bd26-32f7-4838-91ee-5c0b829fb465",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79789f5d-b446-4043-a255-8b3e7efa0925",
+        "start_time": "2023-08-10T15:07:51.808Z",
+        "end_time": "2023-08-10T13:16:08.806Z",
+        "created_at": "2023-08-10T21:00:30.817Z",
+        "updated_at": "2023-08-11T06:34:37.821Z",
+        "car_id": "36fb38c4-4b26-48f5-82e2-b5c0f672f87a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49035373-8589-4341-ae21-c90bd77acc2b",
+        "start_time": "2023-08-10T20:27:10.838Z",
+        "end_time": "2023-08-10T07:58:24.972Z",
+        "created_at": "2023-08-10T16:16:33.709Z",
+        "updated_at": "2023-08-11T02:24:28.171Z",
+        "car_id": "36fb38c4-4b26-48f5-82e2-b5c0f672f87a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af38d9ad-1a2a-4d9c-b633-0c2cd06caca8",
+        "start_time": "2023-08-10T18:40:38.941Z",
+        "end_time": "2023-08-10T21:54:14.431Z",
+        "created_at": "2023-08-10T20:28:15.441Z",
+        "updated_at": "2023-08-11T03:08:12.074Z",
+        "car_id": "6f9e6442-be78-4b8c-80c6-89695d6e3cf1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "21241b1b-d550-41be-8d89-eb7b04eb739c",
+        "email": "Tyra.Feest@yahoo.com",
+        "firstName": "Imogene",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1067.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c8b2518-24bd-4802-bb4b-e883bf8c6bd7",
+        "email": "Alessandra.Altenwerth6@yahoo.com",
+        "firstName": "Holly",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/184.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "da5e29d4-928c-4ad2-a027-8cf79c707fe7",
+        "email": "Noemie.Haley74@yahoo.com",
+        "firstName": "Juana",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7306432",
+        "tenantId": null
+      },
+      {
+        "reference": "d70218f5-7889-40f7-8d7f-8eab43e7a5a6",
+        "email": "Joany83@yahoo.com",
+        "firstName": "Mallory",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/971.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d013f8b2-41ae-480b-bcf9-df52e91c3240",
+        "email": "Taylor.Walsh52@gmail.com",
+        "firstName": "Therese",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/912.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "f09cf009-ee4a-4dd0-9a61-6d96fb9f6a57",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-10T11:36:27.647Z",
+        "updated_at": "2023-08-10T08:57:42.520Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12edbdd5-2af4-43bd-9311-ab4101872b88",
+        "model": "SUV",
+        "availability_status": true,
+        "created_at": "2023-08-11T02:11:33.170Z",
+        "updated_at": "2023-08-10T17:18:36.728Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2656d912-13df-4394-b154-10f0e035e558",
+        "model": "Hatchback",
+        "availability_status": true,
+        "created_at": "2023-08-11T02:49:02.187Z",
+        "updated_at": "2023-08-11T02:28:58.776Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d3354c22-272b-48e2-af20-e392b8c123fc",
+        "model": "Sports Car",
+        "availability_status": false,
+        "created_at": "2023-08-10T18:57:27.090Z",
+        "updated_at": "2023-08-10T22:30:43.366Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f998fb06-8868-4956-9046-e9328df750c0",
+        "model": "Electric Vehicle",
+        "availability_status": true,
+        "created_at": "2023-08-10T15:19:58.584Z",
+        "updated_at": "2023-08-10T14:02:16.551Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "70f23f59-b2b1-4375-84c0-1e0e1d03c536",
+        "start_time": "2023-08-10T19:30:16.047Z",
+        "end_time": "2023-08-10T07:16:47.497Z",
+        "created_at": "2023-08-10T08:33:14.716Z",
+        "updated_at": "2023-08-11T03:20:01.658Z",
+        "car_id": "f09cf009-ee4a-4dd0-9a61-6d96fb9f6a57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0408fc7-1fc9-4423-b5e8-fdcf60650db6",
+        "start_time": "2023-08-10T23:07:24.930Z",
+        "end_time": "2023-08-10T14:12:04.028Z",
+        "created_at": "2023-08-10T16:46:40.298Z",
+        "updated_at": "2023-08-11T02:44:01.630Z",
+        "car_id": "f998fb06-8868-4956-9046-e9328df750c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8af4a4cb-95b7-405c-ae76-e840bc16d8ad",
+        "start_time": "2023-08-10T14:06:31.062Z",
+        "end_time": "2023-08-10T11:35:25.279Z",
+        "created_at": "2023-08-11T06:31:15.383Z",
+        "updated_at": "2023-08-10T18:11:55.609Z",
+        "car_id": "f998fb06-8868-4956-9046-e9328df750c0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b398cf4e-94f3-4863-afae-82e1d8e49125",
+        "start_time": "2023-08-10T19:17:40.226Z",
+        "end_time": "2023-08-11T04:57:22.090Z",
+        "created_at": "2023-08-10T14:57:55.831Z",
+        "updated_at": "2023-08-10T21:21:30.790Z",
+        "car_id": "f09cf009-ee4a-4dd0-9a61-6d96fb9f6a57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2803a4bd-58a4-4d3b-b236-de2aa5fb5df5",
+        "start_time": "2023-08-11T06:09:55.544Z",
+        "end_time": "2023-08-10T16:52:52.732Z",
+        "created_at": "2023-08-11T05:22:21.276Z",
+        "updated_at": "2023-08-10T18:20:57.049Z",
+        "car_id": "d3354c22-272b-48e2-af20-e392b8c123fc",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f4b9a6c9-7c35-4e34-a76a-3c04dd640276",
+        "email": "Yvette.Reynolds-Doyle19@yahoo.com",
+        "firstName": "Karianne",
+        "lastName": "Conroy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/661.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ff287b1d-7c63-4be4-bdaa-6cf5cd5400a3",
+        "email": "Uriah17@yahoo.com",
+        "firstName": "Favian",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85982581",
+        "tenantId": null
+      },
+      {
+        "reference": "8a37eb6e-3ef7-41e5-92a3-de664ad4a5e4",
+        "email": "Twila.Waters32@hotmail.com",
+        "firstName": "Rozella",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/183.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d412f144-d065-4205-8bdc-f4a580d0a1fa",
+        "email": "Vita70@yahoo.com",
+        "firstName": "Jameson",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1121.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2495b225-eafc-4ba8-96bc-8c3a16b18272",
+        "email": "Willie74@gmail.com",
+        "firstName": "Kenny",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/949.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "6b569fa3-89ad-4fd6-843a-668324d6e260",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-10T07:47:04.031Z",
+        "updated_at": "2023-08-10T13:45:43.811Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5f7e06da-1bbe-43dc-bb9f-01848c612a82",
+        "model": "SUV",
+        "availability_status": true,
+        "created_at": "2023-08-10T18:18:45.108Z",
+        "updated_at": "2023-08-10T19:48:19.135Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fa74561c-bb9a-4f1f-8d5e-3417f4180018",
+        "model": "Sports Car",
+        "availability_status": false,
+        "created_at": "2023-08-10T07:44:06.846Z",
+        "updated_at": "2023-08-10T13:58:02.169Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "da4fee30-7ddc-4bad-9412-0e9fffd39a46",
+        "model": "Hatchback",
+        "availability_status": true,
+        "created_at": "2023-08-10T15:42:57.031Z",
+        "updated_at": "2023-08-10T09:35:07.969Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d3abd6b5-2deb-4628-946d-7b5f8984068b",
+        "model": "Electric Vehicle",
+        "availability_status": false,
+        "created_at": "2023-08-10T11:59:19.447Z",
+        "updated_at": "2023-08-10T11:41:51.177Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "0abf8b27-567e-49b0-bf82-96d0d70205b6",
+        "start_time": "2023-08-10T14:30:33.747Z",
+        "end_time": "2023-08-10T21:47:27.697Z",
+        "created_at": "2023-08-10T16:02:29.161Z",
+        "updated_at": "2023-08-10T09:53:16.798Z",
+        "car_id": "d3abd6b5-2deb-4628-946d-7b5f8984068b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "785d2791-4f8d-4e6c-8e56-48adccf86cc3",
+        "start_time": "2023-08-10T20:12:46.495Z",
+        "end_time": "2023-08-10T11:45:15.017Z",
+        "created_at": "2023-08-11T05:51:10.244Z",
+        "updated_at": "2023-08-10T20:12:57.280Z",
+        "car_id": "fa74561c-bb9a-4f1f-8d5e-3417f4180018",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca5aabb7-f45b-4256-9a5a-f836e746d2eb",
+        "start_time": "2023-08-10T23:48:33.363Z",
+        "end_time": "2023-08-10T07:47:03.235Z",
+        "created_at": "2023-08-11T05:42:14.095Z",
+        "updated_at": "2023-08-10T16:42:37.152Z",
+        "car_id": "da4fee30-7ddc-4bad-9412-0e9fffd39a46",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe5f6a60-1593-4f26-b5e0-eb0a9cf7c701",
+        "start_time": "2023-08-10T09:32:10.867Z",
+        "end_time": "2023-08-11T00:37:35.472Z",
+        "created_at": "2023-08-10T22:05:24.892Z",
+        "updated_at": "2023-08-10T23:18:03.085Z",
+        "car_id": "fa74561c-bb9a-4f1f-8d5e-3417f4180018",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22c2f4dd-b9a4-4ad3-a87a-252efc08fd3e",
+        "start_time": "2023-08-10T18:33:27.992Z",
+        "end_time": "2023-08-10T23:06:28.623Z",
+        "created_at": "2023-08-11T01:13:56.368Z",
+        "updated_at": "2023-08-10T21:08:48.828Z",
+        "car_id": "5f7e06da-1bbe-43dc-bb9f-01848c612a82",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "fd675c38-e055-4663-b5d2-19faebdd8344",
+        "email": "Jaqueline.Carroll@hotmail.com",
+        "firstName": "Augusta",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1220.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f92f798c-0808-4b22-9c3f-582d61a3d99e",
+        "email": "Alden69@hotmail.com",
+        "firstName": "Prince",
+        "lastName": "Kub",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74355772",
+        "tenantId": null
+      },
+      {
+        "reference": "fd8b1195-1e8f-4989-b573-fa238e45ab47",
+        "email": "Alysa91@hotmail.com",
+        "firstName": "Kyleigh",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/452.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e3f9bbbd-b480-42c5-8bcd-b2d9a4f7c4a0",
+        "email": "Ashton_Swaniawski-Frami@gmail.com",
+        "firstName": "Julio",
+        "lastName": "Hagenes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/427.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b8e8524b-b929-48a7-b607-74ca5ab02de9",
+        "email": "Briana70@yahoo.com",
+        "firstName": "Amya",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/234.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "48e75e3d-cc83-4fdc-943b-9df1e64bf558",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-10T20:52:04.537Z",
+        "updated_at": "2023-08-10T20:46:15.206Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bbf9c822-ed11-403c-b9a0-f983e225c364",
+        "model": "SUV",
+        "availability_status": false,
+        "created_at": "2023-08-10T11:20:15.852Z",
+        "updated_at": "2023-08-10T11:10:44.985Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a3bf56a2-1ac1-4ea5-a7ee-b8cc5c518fa9",
+        "model": "Hatchback",
+        "availability_status": false,
+        "created_at": "2023-08-10T22:06:21.268Z",
+        "updated_at": "2023-08-10T08:03:48.962Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3399335b-1533-414a-8f5a-9ea92b69dcb3",
+        "model": "Sports Car",
+        "availability_status": false,
+        "created_at": "2023-08-10T23:42:22.662Z",
+        "updated_at": "2023-08-10T14:43:41.577Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1501a4d0-a62d-4850-822e-07397766472c",
+        "model": "Electric Vehicle",
+        "availability_status": true,
+        "created_at": "2023-08-10T10:28:40.688Z",
+        "updated_at": "2023-08-10T22:44:03.243Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "56d20b2d-ab5f-4175-aec9-275b6db839f7",
+        "start_time": "2023-08-10T19:20:52.060Z",
+        "end_time": "2023-08-10T21:11:43.132Z",
+        "created_at": "2023-08-10T18:03:41.267Z",
+        "updated_at": "2023-08-10T12:10:10.676Z",
+        "car_id": "48e75e3d-cc83-4fdc-943b-9df1e64bf558",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a752bc20-642a-4856-89fa-96cfae70b1e7",
+        "start_time": "2023-08-11T00:21:43.665Z",
+        "end_time": "2023-08-10T19:36:52.389Z",
+        "created_at": "2023-08-10T16:16:30.123Z",
+        "updated_at": "2023-08-11T02:08:45.452Z",
+        "car_id": "3399335b-1533-414a-8f5a-9ea92b69dcb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66d1c4f2-8904-4380-806c-9c3de2942dd7",
+        "start_time": "2023-08-10T22:23:02.646Z",
+        "end_time": "2023-08-11T03:24:09.212Z",
+        "created_at": "2023-08-10T10:45:51.615Z",
+        "updated_at": "2023-08-10T12:14:34.706Z",
+        "car_id": "a3bf56a2-1ac1-4ea5-a7ee-b8cc5c518fa9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26bb9758-236a-4a14-a1ff-7be60b596492",
+        "start_time": "2023-08-10T23:03:07.830Z",
+        "end_time": "2023-08-11T05:58:16.451Z",
+        "created_at": "2023-08-10T12:22:09.386Z",
+        "updated_at": "2023-08-11T04:02:11.361Z",
+        "car_id": "3399335b-1533-414a-8f5a-9ea92b69dcb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47cc95ae-859d-43c2-986e-5a6a5ee80c0a",
+        "start_time": "2023-08-10T19:32:31.786Z",
+        "end_time": "2023-08-11T02:15:41.480Z",
+        "created_at": "2023-08-11T01:36:10.418Z",
+        "updated_at": "2023-08-10T17:56:56.834Z",
+        "car_id": "3399335b-1533-414a-8f5a-9ea92b69dcb3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8309a415-3bbe-4881-86d9-ff93a69bdab2",
+        "email": "Marcelo0@hotmail.com",
+        "firstName": "Germaine",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/763.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "67f34a0c-4348-41ec-8dc3-d05b09ffb54d",
+        "email": "Noelia_Anderson74@gmail.com",
+        "firstName": "Randall",
+        "lastName": "Bode",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/582.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "25e273fa-7412-4d14-9dff-23deb7e71738",
+        "email": "Rogers2@hotmail.com",
+        "firstName": "Verdie",
+        "lastName": "Mueller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56441366",
+        "tenantId": null
+      },
+      {
+        "reference": "b77b4b69-d273-4e9e-a10b-0c6bb650b166",
+        "email": "Americo.Senger@hotmail.com",
+        "firstName": "Geovany",
+        "lastName": "Von",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f65d3ce-aed1-4e8b-8ca5-3d0c152fc7de",
+        "email": "Dewayne_Kilback19@gmail.com",
+        "firstName": "Emely",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60085011",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "3755e1c0-f35c-4028-b392-2b177dba0097",
+        "model": "Sedan",
+        "availability_status": true,
+        "created_at": "2023-08-11T03:35:56.025Z",
+        "updated_at": "2023-08-10T16:53:06.688Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "97a79315-8254-4fea-90c6-564800e2d3f3",
+        "model": "SUV",
+        "availability_status": false,
+        "created_at": "2023-08-11T01:24:14.860Z",
+        "updated_at": "2023-08-10T15:04:11.744Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3c7e9144-a89b-4531-8d77-937c37fa2c5f",
+        "model": "Sports Car",
+        "availability_status": false,
+        "created_at": "2023-08-10T23:08:28.993Z",
+        "updated_at": "2023-08-11T00:44:33.289Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ec4cc00c-dd69-45d8-a0da-2319918d7947",
+        "model": "Hatchback",
+        "availability_status": true,
+        "created_at": "2023-08-10T23:12:18.608Z",
+        "updated_at": "2023-08-10T21:35:23.007Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c944396e-491d-4b8f-98a0-9bdc29f16b0b",
+        "model": "Electric Vehicle",
+        "availability_status": true,
+        "created_at": "2023-08-10T18:00:46.958Z",
+        "updated_at": "2023-08-10T09:09:48.284Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f90a31a4-ec78-48a9-8cdd-ca233b42a8e7",
+        "start_time": "2023-08-11T02:01:32.353Z",
+        "end_time": "2023-08-10T13:47:39.554Z",
+        "created_at": "2023-08-10T13:39:35.457Z",
+        "updated_at": "2023-08-11T06:15:25.725Z",
+        "car_id": "ec4cc00c-dd69-45d8-a0da-2319918d7947",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dff93efa-786d-41ee-aae1-d6ae67c64b16",
+        "start_time": "2023-08-10T17:44:08.407Z",
+        "end_time": "2023-08-10T20:04:31.436Z",
+        "created_at": "2023-08-10T19:35:01.218Z",
+        "updated_at": "2023-08-10T15:29:15.107Z",
+        "car_id": "3755e1c0-f35c-4028-b392-2b177dba0097",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9097f7e7-30bb-4391-b42a-abc8fba563b3",
+        "start_time": "2023-08-10T08:57:39.851Z",
+        "end_time": "2023-08-10T10:54:51.347Z",
+        "created_at": "2023-08-10T23:13:17.899Z",
+        "updated_at": "2023-08-10T19:12:57.800Z",
+        "car_id": "c944396e-491d-4b8f-98a0-9bdc29f16b0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a1d14d1-17f2-49a2-9bce-304704e66311",
+        "start_time": "2023-08-11T02:45:47.338Z",
+        "end_time": "2023-08-10T11:51:59.036Z",
+        "created_at": "2023-08-10T10:58:50.721Z",
+        "updated_at": "2023-08-10T23:45:46.060Z",
+        "car_id": "c944396e-491d-4b8f-98a0-9bdc29f16b0b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a2a35a6-2066-4be6-a7d9-41c73c8f1597",
+        "start_time": "2023-08-10T17:20:47.760Z",
+        "end_time": "2023-08-11T04:20:37.841Z",
+        "created_at": "2023-08-10T15:51:14.643Z",
+        "updated_at": "2023-08-10T10:05:06.631Z",
+        "car_id": "3755e1c0-f35c-4028-b392-2b177dba0097",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "abbb6e4b-ccb5-4bb0-82d3-21eecef1421a",
+        "email": "Santiago_Kunde@hotmail.com",
+        "firstName": "Gabe",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85428003",
+        "tenantId": null
+      },
+      {
+        "reference": "816e90d1-c0eb-4651-a78e-33fc56e78b08",
+        "email": "Mohamed_Abbott@gmail.com",
+        "firstName": "Federico",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64077988",
+        "tenantId": null
+      },
+      {
+        "reference": "5dafd16b-213c-4389-82fe-f26ac49ac384",
+        "email": "Lewis_Nikolaus@hotmail.com",
+        "firstName": "Talia",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/371.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b665dc25-e601-4138-86a7-40a1277c6e8b",
+        "email": "Judy.Dicki77@yahoo.com",
+        "firstName": "Hoyt",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70867193",
+        "tenantId": null
+      },
+      {
+        "reference": "99e273d5-c4d0-4cbb-9f8a-c39c14fd60ae",
+        "email": "Annabell.Witting82@yahoo.com",
+        "firstName": "Jaylen",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92397921",
+        "tenantId": null
+      }
+    ]
+  }
+]
